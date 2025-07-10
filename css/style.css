@@ -117,6 +117,49 @@ header h1{
     font-size: 18px;
     color: #757575;
 }
+
+/* user feedback */
+.user-feedback{
+    padding: 100px 0;
+}
+.user-feedback h2{
+    margin-bottom: 40px;
+}
+.card-container {
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 20px #dedada;
+}
+.card p{
+    margin: 10px 0;
+}
+.client{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.client-img{
+    width: 40px;
+    height: 40px;
+}
+.client-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.client-name{
+    color: #757575;
+    margin: 0;
+}
+.client-name p{
+    margin: 0;
+}
 /* form area start */
 .form-area{
     padding: 100px 0;
