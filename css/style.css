@@ -90,3 +90,61 @@ header h1{
     width: 100%;
     border-radius: 30px;
 }
+
+/* user area start */
+.product-user{
+    padding: 50px 80px;
+    border-radius: 20px;
+    background-color: #eaeafa;
+}
+.user-counts{
+    display: flex;
+    justify-content: space-around;
+}
+.count{
+    margin-top: 50px;
+    color: #4E47FF;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+}
+.user-sub-title{
+    font-size: 18px;
+    color: #757575;
+}
+/* form area start */
+.form-area{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.form-text, .form{
+    width: 50%;
+}
+.form-text h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #252432;
+}
+
+.form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: #757575;
+    outline: none;
+    display: block;
+}
+label{
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 10px 20px;
+    resize: none;
+}
+
+.form-btn{
+    width: 100%;
+    margin-top: 10px;
+}
