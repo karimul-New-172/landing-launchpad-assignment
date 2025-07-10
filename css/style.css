@@ -22,6 +22,12 @@
     font-weight: 600;
     color: #252432;
 }
+.heading-secondary{
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
 .btn-primary{
     font-size: 16px;
     text-transform: capitalize;
@@ -62,4 +68,25 @@ nav .logo{
 header h1{
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+/* main styes */
+.action{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-text P{
+    width: 50%;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #757575;
+}
+.action-image{
+    width: 50%;
+}
+.action-image img{
+    width: 100%;
+    border-radius: 30px;
 }
